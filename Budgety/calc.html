@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link type="text/css" rel = "stylesheet" href="stylecalc.css">
+<title>CACULATOR</title>    
+</head>
+    <body>
+    <table border = "1" id="table">
+        <tr>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td colspan = "2" id="clrow"><input type="button" id = "clr" value = "C"> </td>
+        </tr>
+        <tr>
+        <td><input type = "button" value="1" onclick = "disp('1')"></td>
+            <td><input type = "button" value="2" onclick = "disp('2')"></td>
+            <td><input type = "button" value="3" onclick = "disp('3')"></td>
+            <td><input type = "button" value="/" onclick = "disp('/')"></td>
+            <td><input type = "button" value="%" onclick = "disp('%')"></td>
+        </tr>
+        <tr>
+        <td><input type = "button" value="4" onclick = "disp('4')"></td>
+            <td><input type = "button" value="5" onclick = "disp('5')"></td>
+            <td><input type = "button" value="6" onclick = "disp('6')"></td>
+            <td><input type = "button" value="^" onclick = "disp('**')"></td>
+            <td><input type = "button" value="*" onclick = "disp('*')"></td>
+        </tr>
+        <tr>
+        <td><input type = "button" value="7" onclick = "disp('7')"></td>
+            <td><input type = "button" value="8" onclick = "disp('8')"></td>
+            <td><input type = "button" value="9" onclick = "disp('9')"></td>
+            <td><input type = "button" value="-" onclick = "disp('-')"></td>
+            <td rowspan = "2"><input type = "button" value="+" id="plus" onclick = "disp('+')"></td>
+        </tr>
+        <tr>
+        <td><input type = "button" value="." onclick = "disp('.')"></td>
+            <td><input type = "button" value="0" onclick = "disp('0')"></td>
+            <td colspan="2"><input type= "button" id= "equals" value ="="></td>
+        </tr>
+        </table>
+        <script src = "calc.js"></script>
+    </body>
+</html>
